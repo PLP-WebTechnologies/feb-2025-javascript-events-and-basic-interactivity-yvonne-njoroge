@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 JS Event Playground</h1>
+
+  <!-- 1. Button Click -->
+  <button id="magicButton">Click Me!</button>
+
+  <!-- 2. Hover Box -->
+  <div id="hoverBox">Hover over me!</div>
+
+  <!-- 3. Keypress Feedback -->
+  <input type="text" id="keyInput" placeholder="Type something..." />
+  <p id="keyOutput"></p>
+
+  <!-- 4. Image Gallery -->
+  <div id="gallery">
+    <img id="galleryImage" src="https://via.placeholder.com/200" />
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <!-- 5. Tabs -->
+  <div class="tabs">
+    <button class="tab" data-target="tab1">Tab 1</button>
+    <button class="tab" data-target="tab2">Tab 2</button>
+    <div id="tab1" class="tab-content">This is Tab 1 content.</div>
+    <div id="tab2" class="tab-content hidden">This is Tab 2 content.</div>
+  </div>
+
+  <!-- 6. Form Validation -->
+  <form id="form">
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <span id="formError" class="error"></span>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
